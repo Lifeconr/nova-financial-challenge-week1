@@ -32,7 +32,7 @@ class FinancialEDA:
         nltk.download('punkt')
         nltk.download('stopwords')
         nltk.download('wordnet')
-        nltk.download('omw-1.4')
+        nltk.download('omw-1.4') 
         # Load news and stock data
         self.news_df = pd.read_csv(news_path)
         self.stock_data = {}
