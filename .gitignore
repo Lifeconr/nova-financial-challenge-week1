@@ -1,5 +1,6 @@
 # Git ignore file for Python projects
 Data/*
+notebook/figures/*.png
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
